@@ -1,0 +1,134 @@
+  #Header{
+    display: flex;
+    justify-content: space-between;
+  background-color: #5f5f5f;
+
+    color:white;
+    
+  }
+  #Header h1{
+    text-transform: uppercase;
+    color:white;
+    padding-left: 50px;
+
+  }
+   #navvib ul{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 30px;
+    
+   }
+  #navvib ul li a{
+    text-decoration: none;
+     color:rgb(246, 241, 241);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-transform: capitalize;
+         padding-right: 50px;
+
+
+  }
+  #VIBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:  0px 70px;
+  }
+  h2{
+        color: rgb(19, 11, 1);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  #VIBar span{
+    color: rgb(250, 190, 111);
+  }
+    #VIBar div{
+      padding: 5px;
+    }
+    label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+button{
+  height: 40px;
+  width: 80px;
+  background-color: black;
+  color:aliceblue;
+}
+ #HI{
+  background-color: #5f5f5f;
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+    padding: 0 50px; /* إضافة حشوة داخلية لمنع التصاق العناصر بالحواف */
+
+ }
+ #LOcation{
+ display: flex; /* يجعل العنصر حاوية مرنة (Flexbox) */
+  flex-direction: column; /* يرتب العناصر الأبناء (الأيقونة، h3، p) عموديًا، فوق بعضها البعض */
+  align-items: center; /* يوسّط العناصر أفقيًا داخل الحاوية */
+  text-align: center; /* يوسّط أي نص داخل الحاوية */
+  color: aliceblue; /* يُطبق لون النص على جميع العناصر النصية بداخلها */
+  padding: 20px; /* يُضيف حشوة داخلية (padding) بمقدار 20 بكسل من كل الجهات */
+    margin: 0px 100px;
+    
+
+
+ }
+ i {
+  font-size: 40px; /* يُحدد حجم الأيقونة */
+  margin-bottom: 10px; /* يُضيف مسافة أسفل الأيقونة */
+}
+
+  #LOcatio h3 {
+  font-size: 24px; /* حجم خط مناسب */
+  
+
+  }
+  #LOcatio p{
+  font-size: 16px;/*ط مناسب */
+  }
+  
+ #phoneNumber{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  color: aliceblue; 
+  padding: 20px;
+ }
+ i {
+  font-size: 40px;
+  margin-bottom: 10px; 
+}
+
+ 
+ #Emailadress{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  color: aliceblue; 
+  padding: 20px;
+  margin: 0px 200px;
+ }
+
+ i {
+  font-size: 40px;
+  margin-bottom: 10px; 
+}
+footer {
+  background-color: #333; /* لون الخلفية الداكن */
+  color: white; /* لون النص الأبيض */
+  padding: 40px 20px; /* مسافة داخلية من الأعلى والأسفل */
+  display: flex; /* تفعيل Flexbox لترتيب العناصر */
+  justify-content: space-around; /* توزيع العناصر بمسافات متساوية */
+  align-items: center; /* توسيط العناصر عموديًا */
+  text-align: center; /* توسيط النص داخل كل عنصر */
+margin: 0 0;
+}

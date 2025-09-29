@@ -1,0 +1,126 @@
+
+
+  #Header{
+    display: flex;
+  background-color: #5f5f5f;
+
+  }
+  #Header h1{
+    text-transform: uppercase;
+    color:white;
+    padding-left: 50px;
+  }
+  #navvib {
+     position: fixed;/*بتثبت العنصر بالاعلى*/
+  top: 20px; /* مسافة من أعلى الصفحة */
+  right: 20px; /* مسافة من الجانب الأيمن */
+  z-index: 1000;
+
+  }
+  #navvib ul {
+ display: flex;/*بنخليهم جنب بعض */
+  gap: 20px;/*هذه بتعمل مسافة بين كل كلمة بالشريط فوق*/
+ 
+  }
+  #navvib ul li{
+    list-style: none;
+  }
+  #navvib ul li a{
+    text-decoration: none;
+     color:rgb(246, 241, 241);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-transform: capitalize;
+         padding-right: 50px;
+
+
+  }
+  #hero{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+  #hero h3 ,p{
+
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+             padding-left: 50px;
+
+  }
+  #hero span {
+   color: #c97f10;
+  }
+ 
+  
+  #hero img{
+   
+    width: 300px;
+    height: 300px;
+    border-radius: 50% ;
+    padding : 30px 200px;
+    
+  }
+   #guest{
+    background-image: url(../images/city.jpg);
+    background-size: cover; /* لضمان تغطية الصورة للمنطقة بالكامل */
+    background-repeat: no-repeat; /* لمنع تكرار الصورة */
+    background-attachment: fixed; /* لتثبيت الصورة 
+    أثناء التمرير */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }  
+  h4{
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 60px;
+  }
+
+ 
+
+#pic1{
+  display: flex;
+  align-items: center; /* لمحاذاة الصورة والنص عمودياً في المنتصف */
+  gap: 30px; /* مسافة بين الصورة والنص */
+  margin-bottom: 40px ; /* مسافة بين كل صف من الصور والنصوص */
+  padding: 40px 80px;
+    margin: 40px 80px;
+  background-color: #deb16f;
+  
+  
+
+}
+#pic1 img{
+
+border-radius: 51% 49% 49% 51% / 49% 49% 51% 51%; /* تطبيق الشكل البيضاوي للصورة */
+  width: 200px; /* حجم الصورة، يمكنك تعديله */
+  height: auto; /* للحفاظ على نسبة العرض إلى الارتفاع */
+  flex-shrink: 0; /* يمنع الصورة من الانكماش */
+
+}
+#pic2{
+   display: flex;
+  align-items: center; /* لمحاذاة الصورة والنص عمودياً في المنتصف */
+  gap: 30px; /* مسافة بين الصورة والنص */
+  margin-bottom: 40px; /* مسافة بين كل صف من الصور والنصوص */
+  padding: 40px 80px;
+    margin: 40px 80px;
+  background-color: #deb16f;
+   
+
+}
+#pic2 img{
+
+border-radius: 51% 49% 49% 51% / 49% 49% 51% 51%; /* تطبيق الشكل البيضاوي للصورة */
+  width: 200px; /* حجم الصورة، يمكنك تعديله */
+  height: auto; /* للحفاظ على نسبة العرض إلى الارتفاع */
+  flex-shrink: 0; /* يمنع الصورة من الانكماش */
+}
+#foot {
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+
+}
+

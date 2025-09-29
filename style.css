@@ -1,0 +1,86 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+
+}
+  #Header{
+    display: flex;
+    justify-content: space-between;
+  background-color:white;
+
+    color:white;;
+    
+  }
+  #navvib ul{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 30px;
+    
+   }
+  #navvib ul li a{
+    text-decoration: none;
+     color:rgb(5, 5, 5);
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     text-transform: capitalize;
+         padding-right: 50px;
+
+
+  }
+  #Header h1 img{
+height: 100px; 
+width: 100px;   
+  }
+  body{
+    background-color: rgb(243, 105, 105);
+  }
+  main{
+    height: 500px;
+    width: 80%;
+    background-color: white;;
+   border-radius: 10px;
+    margin: auto;
+    padding: 50px;
+    margin: 40px;
+        margin: 80px 40px;
+        margin-left: 150px;
+
+  }
+  .container{
+    display: flex;
+    gap: 30px;
+    
+  }
+  .l_div{
+        margin: 0 100px;
+
+  }
+  .l_div h3{
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  span{
+    font-size :30px; 
+    font-weight: bold;
+  }
+  .l_div p{
+    margin-top: 20px;
+  }
+  .l_div a{
+    display: inline-block;/*حولتها لاينلاين بلوك عشان يقبل مارجن وباندينع */
+    margin-top:20px ;
+    background-color: rgb(243, 105, 105);
+    text-decoration: none;
+    padding:15px ;
+    font-size: 15px;
+    color: white;;
+    border-radius: 10px;
+  }
+  .r_div img{
+    height: 250px; 
+    width: 200px;
+        margin: 0 100px;
+        background-size: contain;
+
+  }

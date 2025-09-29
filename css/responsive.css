@@ -1,0 +1,44 @@
+/* موبايل */
+@media (max-width: 576px) {
+  header {
+    display: flex;
+    flex-direction: column; /* يخلي العناصر تنزل تحت بعض */
+    align-items: center;    /* يخليهم في النص */
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+  #About {
+    padding-left: 20px;
+    background-size: cover; /* الصورة تملأ المساحة */
+    background-position: center;
+  }
+
+  .information {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+/* تابلت */
+@media (min-width: 577px) and (max-width: 992px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #photografe {
+    grid-template-areas:
+      "one tow"
+      "three four"
+      "five five";
+    padding-left: 0;
+  }
+
+  .skills-container {
+    margin: 20px 50px;
+  }
+}
